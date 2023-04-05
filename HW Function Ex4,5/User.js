@@ -502,28 +502,30 @@ let users = [
     }
 ];
 
-//4.1 Nhập vào 1 số n. Hãy tìm 1 user có id bằng n
+// Nhập vào 1 số n. Hãy tìm 1 user có id bằng n
 const n = parseInt(prompt("Nhập vào 1 số : "));
 const user = users.filter((item,index) => {
     return item && item.id === n;})
 console.log(user);
 
-//4.2 Nhập vào 1 chuỗi keyword. Hãy lấy ra email của các user có tên 
+
+// Nhập vào 1 chuỗi keyword. Hãy lấy ra email của các user có tên 
 // const keyword = prompt("Nhập vào keyword:");
 // const filteredUsers = users.filter(u => (u.first_name + u.last_name).includes(keyword)); // lọc ra các user có tên chứa keyword
 // const emails = filteredUsers.map(u => u.email); // trích xuất email của các user đã lọc
 // console.log(emails);
 
-//4.3 Đếm số lượng user có age > 50.
+
+//Đếm số lượng user có age > 50.
 // const userOver50 = users.filter(users => users.age > 50);
 // const count = usersOver50.length;
 // console.log(count); // in ra số lượng user có age > 50
 // console.log(userOver50); // in ra số lượng user có age > 50
 
-//4.4 Đếm số lượng user đã kết hôn và chưa kết hôn.
+
+// Đếm số lượng user đã kết hôn và chưa kết hôn.
 // let marriedCount = 0;
 // let unmarriedCount = 0;
-
 // for (let i = 0; i < users.length; i++) {
 //   if (users[i].is_married) {
 //     marriedCount++;
@@ -531,11 +533,11 @@ console.log(user);
 //     unmarriedCount++;
 //   }
 // }
-
 // console.log("Married users:", marriedCount);
 // console.log("Unmarried users:", unmarriedCount);
 
-//4.5 Đếm số lượng user theo từng ngành nghề tương ứng.
+
+// Đếm số lượng user theo từng ngành nghề tương ứng.
 // const jobCount = {};
 // for (let i = 0; i < users.length; i++) {
 //   const job = users[i].job;
@@ -546,5 +548,7 @@ console.log(user);
 //   }
 // }
 // console.log(jobCount);
+
+
 
 

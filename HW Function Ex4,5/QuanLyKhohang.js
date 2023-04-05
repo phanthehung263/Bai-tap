@@ -1,16 +1,16 @@
-//5 
+// 5 
 // let store = {
-//   name: "Kho hàng ABC",
-//   address: "123 đường XYZ",
-//   owner: "Nguyễn Văn A",
+//   name: "Kho hàng Vinmart",
+//   address: "66B Nguyen Sy Sach, phuong 15, quan Tan Binh",
+//   owner: "Truong con Nam Dinh",
 //   items: [
-//     { id: 001, name: "Chocolate", category: "White", price: 10 },
-//     { id: 002, name: "Strawberry", category: "Black", price: 20 },
-//     { id: 003, name: "Banana", category: "Red", price: 30 },
-//     { id: 004, name: "Orange", category: "Yellow", price: 40 },
-//     { id: 005, name: "Mango", category: "Green", price: 50 },
-//     { id: 006, name: "Pineapple", category: "Blue", price: 60 },
-//     { id: 007, name: "Peach", category: "Purple", price: 70 },
+//     { id: 1, name: "Chocopie", category: "Brown", price: 20 },
+//     { id: 2, name: "Oreo", category: "Black", price: 30 },
+//     { id: 3, name: "Snack", category: "Yellow", price: 10 },
+//     { id: 4, name: "Candy", category: "Orange", price: 40 },
+//     { id: 5, name: "Fruit", category: "Colorful", price: 60 },
+//     { id: 6, name: "PineApple", category: "Light-yellow", price: 50 },
+//     { id: 7, name: "Meat", category: "Red", price: 70 },
 //   ]
 // };
 
@@ -29,6 +29,14 @@
 //   newItem.name = prompt("Nhập tên mặt hàng:");
 //   newItem.category = prompt("Nhập loại mặt hàng:");
 //   newItem.price = prompt("Nhập giá cả:");
+
+    function addNewItem(){
+        let newItem = {};
+        newItem.id = prompt("Nhập mã mặt hàng:");
+        newItem.name = prompt("Nhập tên mặt hàng:");
+        newItem.category = prompt("Nhập loại mặt hàng:");
+        newItem.price = prompt("Nhập giá c")
+    }
 
 //   let existingItem = store.items.find(item => item.id === newItem.id);
 //   if (existingItem !== undefined) {
